@@ -61,14 +61,9 @@ As for the indicators of the progress of the disease, that is, the values that m
     <td>206.0</td>
   </tr>
   <tr>
-    <td>135.0</td>
-  </tr>
-  <tr>
     <td>...</td>
   </tr>
-  <tr>
-    <td>132.0</td>
-  </tr>
+  
   <tr>
     <td>220.0</td>
   </tr>
@@ -85,7 +80,7 @@ As for the indicators of the progress of the disease, that is, the values that m
     y = my_data.target
     X_train,X_test,y_train,y_test = train_test_split(x,y,test_size=0.01, random_state=0)  #split the data       
 
-# Training and predecting
+# Training and predicting
     
     regression_model = LinearRegression()             # create object of our model
 
